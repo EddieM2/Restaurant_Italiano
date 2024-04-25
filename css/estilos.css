@@ -144,6 +144,10 @@ h3,p,a {
     animation: desplazamiento .5s ease-in-out;
 }
 
+.hamburguesa:hover {
+    cursor: pointer;
+}
+
 .hamburguesa span {
     display: block;
     background-color: var(--blanco);
@@ -153,3 +157,9 @@ h3,p,a {
 }
 
 
+/* Video */
+
+video {
+    width: 100%;
+    height: 100%;
+}
