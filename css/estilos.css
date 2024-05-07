@@ -127,6 +127,14 @@ img {
     cursor: pointer;
 }
 
+.btn-verde {
+    background-color: var(--verde);
+    border: none;
+    display: inline-block;
+    margin-bottom: 2rem;
+    font-family: var(--parrafos);
+}
+
 /* Encabezado */
 .contenedor-navegacion{
     background-color: var(--oscuro);
@@ -313,3 +321,28 @@ video {
     margin-bottom: 1rem;
 }
 
+
+.menu{
+    padding-top: 4rem;
+}
+/* Platillos */
+
+.texto-platillos {
+    text-align: center;
+    font-size: 5rem;
+}
+
+.botones-platillos button{
+    background-color: var(--verde);
+}
+
+.botones-platillos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.botones-platillos button{
+    flex: 0 0 calc(50% - 1rem);
+    padding: 1rem 3rem;
+}
