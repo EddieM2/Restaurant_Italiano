@@ -133,6 +133,11 @@ img {
     display: inline-block;
     margin-bottom: 2rem;
     font-family: var(--parrafos);
+    cursor: pointer;
+}
+
+.btn-verde:hover {
+    background-color: var(--rojo);
 }
 
 /* Encabezado */
@@ -345,4 +350,56 @@ video {
 .botones-platillos button{
     flex: 0 0 calc(50% - 1rem);
     padding: 1rem 3rem;
+}
+
+@media (min-width: 768px) {
+    .botones-platillos {
+        display: inline-block;
+    }
+
+    .botones-platillos button {
+        flex: unset;
+    }
+}
+
+@media (min-width: 768px) {
+    .platillos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+
+.platillo {
+    flex: 0 0 calc(33.3% - 1rem);
+    border: 1px solid #e1e1e1;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.platillo h2 {
+    text-align: center;
+}
+
+.platillo p {
+    font-size: 1.8rem;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-around;
+}
+
+.precio p {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.precio button {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--rojo);
+    color: var(--blanco);
+    height: 3.8rem;
 }
